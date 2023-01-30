@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.button-div {
+    position: relative;
+    left: 5rem;
+}
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.resume-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    border-radius: 1rem;
+    padding-bottom: 1rem;
+    gap: 2rem;
+}
+
+#img {
+    height: 10rem;
+    padding: 2rem;
+}
+
+.resume-applied-for {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.applied-for-p {
+    margin: 0;
+}
+
+.resume-main {
+    display: flex;
+    gap: 2rem;
+}
+
+.resume-left-section {
+    background-color: burlywood;
+    padding: 2rem;
+    border-radius: 1rem;
+    height: fit-content;
+}
+
+.resume-right-section {
+    padding: 2rem;
+    border-radius: 1rem;
+    height: fit-content;
+}
+
+.company-name-div, .position-div, .start-date-div, .end-date-div, .summary-div {
+    display: flex;
+    gap: 1rem;
+}
+
+.company-details p {
+    margin: 0.2rem 0;
+}
+
+.company-name-span, 
+.position-span, 
+.start-date-span, 
+.end-date-span, 
+.summary-span,
+#project-span,
+.education-span {
+    font-weight: 600;
+}
+
+.search {
+    margin-top: 2rem;
+    padding: 0.5rem;
+    border: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    border: transparent;
+    background-color: white;
+    border-radius: 0.4rem;
+    transition: 0.3s ease;
+    width: 15rem;
+}
+
+.search:hover {
+    transition: 0.3s ease;
+    background-color: cornsilk;
+}
+
+.search:focus {
+    outline: none;
+}
+
+.btn {
+    margin-top: 2rem;
+    padding: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0.4rem;
+    transition: 0.3s ease;
+    font-weight: 600;
+    border: transparent;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: darksalmon;
+    transition: 0.3s ease;
+}
